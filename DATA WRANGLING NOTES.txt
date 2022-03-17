@@ -1,0 +1,48 @@
+DATA WRANGLING NOTES
+
+ - There are 110527 patients and 14 columns
+
+ - ScheduledDay and AppointmentDay need to be converted to datetime format
+ - Convert Neighbourhood from all caps to title
+
+ - 50% of the patients are aged 37 and below
+ - A huge majority of the patients don't have hipertension, diabetes, alcoholism or are handicapped
+ - Most patients did not recieve an SMS
+ - A huge majority of the patients do not have a scholarship
+
+ - There are patients who made several appointments
+
+ - There is a negative value for Age that should be removed
+
+ - There are 71,840 female patients and 38,687 male patients
+ - There are more female patients than male patients
+ - 65% are female
+ - 35% are male
+
+ - 90% of the patients do not have a scholarship
+ - 10% of the patients have a scholarship
+
+ - 80% of the patients do not have hipertension
+ - 20% of the patients have hipertension
+
+ - 93% of the patients do not have diabetes
+ - 7% of the patients have diabetes
+
+ - 97% of the patients are not alcoholics
+ - 3% of the patients are alcoholics
+
+ - 98% of the patients are not handicapped
+ - 2% of the patients are handicapped
+ - Handcap has values (2, 3, 4) when it should only be 0 or 1
+
+ - 68% of the patients did not recieve an SMS
+ - 32% of the patients recieved an SMS
+ - A huge majority of patients did not receive an SMS
+
+ - 80% of the patients showed up
+ - 20% of the patients did not show up
+
+ - **Scholarship, Hipertension, Diabetes, Alcoholism, Handcap, SMS_received** 
+  and **No-show** columns should all be converted to boolean
+
+ - Duration from schedule date to appointment date
